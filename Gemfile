@@ -20,7 +20,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 gem 'bootstrap-sass', '~> 3.3.6'
-gem "paperclip", "~> 5.0.0"
+gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '>= 2.0.34'
+
+gem 'figaro'
 
 group :production do
   gem 'pg'
